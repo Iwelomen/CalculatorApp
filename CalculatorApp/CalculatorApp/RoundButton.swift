@@ -18,9 +18,9 @@ class RoundButton: UIButton {
             
         }
     }
-    override func prepareForInterfaceBuilder() {
-        if roundButton {
-            layer.cornerRadius = frame.height / 2
-        }
-    }
+//    override func prepareForInterfaceBuilder() {
+//        if roundButton {
+//            layer.cornerRadius = frame.height / 2
+//        }
+//    }
 }

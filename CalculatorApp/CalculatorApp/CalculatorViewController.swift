@@ -47,8 +47,8 @@ class CalculatorViewController: UIViewController {
     
     @IBAction func dotPressed(_ sender: RoundButton) {
         if runnungNumber.count <= 7 {
-        runnungNumber += "."
-        outputLabel.text = runnungNumber
+            runnungNumber += "."
+            outputLabel.text = runnungNumber
         }
     }
     @IBAction func equalPressed(_ sender: RoundButton) {
